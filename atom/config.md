@@ -1,11 +1,7 @@
-# ATOM
+# Atom configuration
+This file for perform on Atom IDE 
 
-This file for Atom IDE configuration
-
-
-## Own configuration for perform on Atom
-
-* Main Atom config
+## Main config
 
 Need to edit config.cson in .atom
 add this
@@ -34,7 +30,7 @@ add this
   "atom-format": {}
 ```
 
-* Emmet manuel config about stylus autocompletion with Separator ':' / ';'
+## Emmet manuel config about stylus autocompletion with Separator ':' / ';'
 
 Need to edit & modify css.js in .atom/packages/emmet/node_modules/emmet/lib/resolver/
 On line 113 to 118 copy this
@@ -48,7 +44,7 @@ prefs.define('stylus.propertyEnd', ';',
 + 'when expanding CSS abbreviations in Stylus dialect.');
 ```
 
-* Keybinding config
+## Keybinding config
 
 Need to edit keymap.cson in .atom
 add this
