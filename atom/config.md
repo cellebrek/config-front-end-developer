@@ -1,13 +1,18 @@
 # Atom configuration
-This file for perform on Atom IDE 
+This file for perform on Atom (web integration)
+
+## Packages list (need download for next step)
+* Stylus
+* atom-handlebars
+* emmet
+* php-twig
 
 ## Main config
-
-Need to edit config.cson in .atom
+Need to edit config.cson in .atom (Open Config Folder in Settings)
 add this
 
 ```shell
-	"*":
+  "*":
   "exception-reporting":
     userId: "b6c6e785-0b6e-3cf6-78d9-54030c89effb"
   welcome:
@@ -30,10 +35,9 @@ add this
   "atom-format": {}
 ```
 
-## Emmet manuel config about stylus autocompletion with Separator ':' / ';'
-
+## Manuel Emmet configuration about stylus autocompletion with Separator ':' / ';'
 Need to edit & modify css.js in .atom/packages/emmet/node_modules/emmet/lib/resolver/
-On line 113 to 118 copy this
+On line 113 to 118 copy this (know other solution ?)
 
 ```shell
 prefs.define('stylus.valueSeparator', ': ',
@@ -45,7 +49,6 @@ prefs.define('stylus.propertyEnd', ';',
 ```
 
 ## Keybinding config
-
 Need to edit keymap.cson in .atom
 add this
 
@@ -54,7 +57,7 @@ add this
     'tab': 'emmet:expand-abbreviation-with-tab'
 ```
 
-## Usefull shortcuts
+## Most usefull shortcuts
 
 Emmet config
 ```shell
