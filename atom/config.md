@@ -53,3 +53,25 @@ add this
 'atom-text-editor[data-grammar="text html php stylus handlebars twig"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
 ```
+
+## Usefull shortcuts
+
+Emmet config
+```shell
+  alt-shift-down : emmet: decrement-number-by-10
+    alt-shift-up : emmet: increment-number-by-10
+        alt-down : emmet: decrement-number-by-01
+          alt-up : emmet: increment-number-by-01
+     shift-cmd-E : emmet: expand-abbrevation
+```
+
+Editor
+```shell
+     shift-cmd-D : editor: duplicate-lines
+     shift-cmd-/ : editor: toggle-line-comments
+   ctrl-cmd-down : editor: move-line-down
+     ctrl-cmd-up : editor: move-line-up
+ ctrl-shift-down : editor: add-selection-down
+   ctrl-shift-up : editor: add-selection-up
+```
+  
