@@ -53,7 +53,7 @@ Need to edit keymap.cson in .atom
 add this
 
 ```shell
-'atom-text-editor[data-grammar="text html php stylus handlebars twig"]:not([mini])':
+'atom-text-editor:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
 ```
 
@@ -65,7 +65,7 @@ Emmet config
     alt-shift-up : emmet: increment-number-by-10
         alt-down : emmet: decrement-number-by-01
           alt-up : emmet: increment-number-by-01
-     shift-cmd-E : emmet: expand-abbrevation
+             tab : emmet: expand-abbrevation
 ```
 
 Editor
