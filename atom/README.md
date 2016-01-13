@@ -5,7 +5,9 @@ This file for perform on Atom (web integration)
 * Stylus
 * atom-handlebars
 * emmet
-* php-twig
+* color-picker
+* git-control
+* terminal-plus
 
 ## Main config
 Need to edit config.cson in .atom (Open Config Folder in Settings)
